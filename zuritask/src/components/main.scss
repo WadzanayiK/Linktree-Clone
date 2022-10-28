@@ -1,0 +1,25 @@
+@import "../scss/breakpoints";
+
+.MainContainer {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin: auto;
+  gap: 32px;
+  width: 90%;
+
+  @include md {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: auto;
+    gap: 8px;
+    width: 80%;
+  }
+}
